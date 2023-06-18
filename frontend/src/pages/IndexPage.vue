@@ -1,8 +1,13 @@
 <!-- eslint-disable max-len -->
 <template>
   <div class="q-pa-md">
-    <q-table title="Produtos" :rows="products" :columns="columns" row-key="name" :loading="loading">
+    <q-table title="Produtos" :rows="products" :columns="columns" row-key="name" :loading="loading" :filter="filter">
       <template v-slot:top>
+        <q-input borderless dense debounce="300" v-model="filter" placeholder="Pesquisar">
+          <template v-slot:append>
+            <q-icon name="search" />
+          </template>
+        </q-input>
         <q-space />
         <q-btn color="primary" label="Novo Produto" :to="{ name: 'formUser' }" />
       </template>
@@ -26,7 +31,7 @@ import {
   defineComponent, onMounted, ref, computed,
 }
   from 'vue';
-import { Loading, useQuasar } from 'quasar';
+import { useQuasar } from 'quasar';
 import { useRouter } from 'vue-router';
 import { useStore } from 'vuex';
 
@@ -96,6 +101,7 @@ export default defineComponent({
     return {
       columns,
       products,
+      filter: ref(''),
       loading,
       handleDeleteUser,
       handleEditUser,
