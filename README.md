@@ -1,5 +1,5 @@
 # laravel-vue-crud
-Esse é um projeto gerenciador de produtos feitos utlizando Laravel e Vue
+Esse é um projeto gerenciador de produtos, feito utlizando Laravel e Vue
 
 ## Instalação:
 Para instalar o projeto, siga os seguintes passos:
