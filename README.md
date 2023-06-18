@@ -17,7 +17,7 @@ Para instalar o projeto, siga os seguintes passos:
 ![Mensagem de sucesso](https://user-images.githubusercontent.com/49663146/246686643-e1e6fd43-069a-403e-a012-be558a12ff95.png)
 
 #### Modal de exclusão:
-![Modal de exclusão](https://user-images.githubusercontent.com/49663146/246686397-125ce613-9258-4e2b-adf2-418541b25da8.png)
+![Modal de exclusão](https://user-images.githubusercontent.com/49663146/246686661-9d442249-fec6-4abc-b647-0087f39a698c.png)
 
 ### Licença
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
