@@ -1,11 +1,18 @@
 # laravel-vue-crud
 Esse é um projeto gerenciador de produtos, feito utlizando Laravel e Vue
 
+## Propósito:
+Esse projeto é a resolusão de um teste realizado pela empresa Grupo Plan Marketing, a aplicação foi desenvolvida inteiramente por mim, usando meus atuais conhecimentos nas ferramentas propostas.
+
 ## Instalação:
 Para instalar o projeto, siga os seguintes passos:
 
+[Instalação frontend](frontend/README.md)
+
+[Instalação backend](backend/README.md)
+
 #### Página principal:
-![Página principal](https://user-images.githubusercontent.com/49663146/246686397-125ce613-9258-4e2b-adf2-418541b25da8.png)
+![Página principal](https://user-images.githubusercontent.com/49663146/246689100-0dba17dd-62f7-40cf-abd7-24f8a4bc7a72.png)
 
 #### Criação de Produto:
 ![Criação de Produto](https://user-images.githubusercontent.com/49663146/246686473-ff261e7c-1235-48a3-9fc5-38c8ae5668b6.png)
