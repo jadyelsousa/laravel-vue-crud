@@ -56,14 +56,13 @@ export default defineComponent({
       if (route.params.id) {
         form.value = store.state.products.find((p) => p.id === Number(route.params.id));
       }
-      const responseBrands = await getBrands();
-      brands.value = responseBrands;
+      await getBrands();
     });
     const handleSubmit = async () => {
       if (route.params.id) {
         try {
           await store.dispatch('updateProduct', form.value);
-          $q.notify({ message: 'ProdutoCriado', icon: 'check', color: 'positive' });
+          $q.notify({ message: 'Produto Atualizado', icon: 'check', color: 'positive' });
           router.push({ name: 'home' });
         } catch (error) {
           $q.notify({ message: 'Erro ao atualizar produto', icon: 'times', color: 'negative' });
@@ -71,10 +70,10 @@ export default defineComponent({
       } else {
         try {
           await store.dispatch('createProduct', form.value);
-          $q.notify({ message: 'ProdutoCriado', icon: 'check', color: 'positive' });
+          $q.notify({ message: 'Produto Criado', icon: 'check', color: 'positive' });
           router.push({ name: 'home' });
         } catch (error) {
-          $q.notify({ message: 'Erro ao atualizar produto', icon: 'times', color: 'negative' });
+          $q.notify({ message: 'Erro ao criar produto', icon: 'times', color: 'negative' });
         }
       }
     };
