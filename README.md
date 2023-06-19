@@ -2,7 +2,7 @@
 Esse é um projeto gerenciador de produtos, feito utlizando Laravel e Vue
 
 ## Propósito:
-Esse projeto é a resolusão de um teste realizado pela empresa Grupo Plan Marketing, a aplicação foi desenvolvida inteiramento por mim, usando meus atuais conhecimentos nas ferramentas propostas.
+Esse projeto é a resolusão de um teste realizado pela empresa Grupo Plan Marketing, a aplicação foi desenvolvida inteiramente por mim, usando meus atuais conhecimentos nas ferramentas propostas.
 
 ## Instalação:
 Para instalar o projeto, siga os seguintes passos:
