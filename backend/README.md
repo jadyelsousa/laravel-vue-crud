@@ -1,6 +1,6 @@
 ## Api em Laravel
 
-Este projeto é uma API construída em Laravel, que permite a criação, leitura, atualização e exclusão de recursos do ecommerce.
+Este projeto é uma API construída em Laravel, que permite a criação, leitura, atualização e exclusão de recursos da aplicação.
 
 ## Instalação
 Requerido: PHP 8 e Laravel 9.0
